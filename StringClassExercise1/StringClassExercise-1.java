@@ -10,6 +10,8 @@ class Customer{
             this.discount = 10;
         }else{
             this.discount = 20;
+            // checking
+            // checking 2
         }
         this.name = val[1];
         System.out.println("Hi "+this.name+"! "+this.discount+"% discount is applicable for you");
