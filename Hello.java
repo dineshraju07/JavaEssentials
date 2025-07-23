@@ -67,11 +67,20 @@ class Hello {
 //        String s2 = s1.toString();
 //        System.out.println("din"+s2);
 //        System.out.println(Character.valueOf('5'));
-        int[] n1 = new int[]{1, 2};
-        int[] n2 = new int[2];
-        n2[0] = 1;
-        n2[1] = 2;
+//        int[] n1 = new int[]{1, 2};
+//        int[] n2 = new int[2];
+//        n2[0] = 1;
+//        n2[1] = 2;
 //        System.out.println(Arrays.binarySearch(n1, 8));
-        System.out.println(Arrays.toString(n1));
+//        System.out.println(Arrays.toString(n1));
+
+        int marks =79;
+        if(marks > 80){
+            System.out.println("above 80");
+        } else if (marks>60 && marks<=80) {
+            System.out.println("below 81");
+        }else{
+            System.out.println("50");
+        }
     }
 }
