@@ -49,7 +49,7 @@ class Shop{
     }
 
     public double discountCalculator(double amount, int discount){
-        return (amount - (amount * (float)discount/100));
+        return (amount - (amount * discount/100));
     }
 }
 
